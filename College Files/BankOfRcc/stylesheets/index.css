@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: linear-gradient(to bottom,#c084c8,white);
+    font-family: 'Inconsolata', serif;
+}
+marquee {
+    background-color:#E05F6C;
+    font-weight: bold;
+    border: 2px solid;
+    border-color: #EBEBEB;
+}
+#header {
+    background-color:#E05F6C;
+    box-shadow: 0px 0px 10px black;
+    width: 50%;
+    margin: auto;
+    border: 5px solid;
+    border-color: #EBEBEB;
+    margin-top: 20px;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 30px;
+    height: 30px;
+    padding-top: 5px;
+}
+
+#mid {
+    height: 70%;
+    margin-top: 1%;
+}
+#login_section {
+    width: 48%;
+    margin-top: 1%;
+    margin-left : 1%;
+    height: 94%;
+    float: left;
+}
+#signup_section {
+    width: 48%;
+    margin-right: 1%;
+    margin-top: 1%;
+    height: 94%;
+    float: right;
+}
+#l_u_name,#l_u_pass,#l_sbm_t {
+    font-family: 'Inconsolata', serif;
+    border: 5px solid;
+    border-color: #E05F6C;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    height: 20%;
+    //margin-left: 25%;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+#l_sbm_t {
+    background-color: #8E4497;
+    color: white;
+    border-radius: 0px 0px 0px 0px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px black;
+}
+#l_sbm_t:active {
+    box-shadow: -5px -5px 10px black;
+}
+#s_a_num,#s_cif_num,#s_ifsc,#s_country,#s_c_code,#s_p_num,#s_sbm_t {
+    font-family: 'Inconsolata', serif;
+    border: 5px solid;
+    border-color: #E05F6C;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    height: 20%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+#s_a_num,#s_ifsc,#s_c_code{
+    border-radius: 5px 0px 0px 5px;
+}
+#s_cif_num,#s_country,#s_p_num{
+    border-radius: 0px 5px 5px 0px;
+}
+#s_sbm_t {
+    margin-left: 25%;
+    background-color: #8E4497;
+    color: white;
+    border-radius: 0px 0px 0px 0px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px black;
+}
+#s_sbm_t:active {
+    box-shadow: -5px -5px 10px black;
+}

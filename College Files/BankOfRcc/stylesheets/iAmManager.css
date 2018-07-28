@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color : #8E4497;
+    font-family: 'Inconsolata', serif;
+}
+h2 {
+    text-align: center;
+}
+#header {
+    background-color:#E05F6C;
+    box-shadow: 0px 0px 10px black;
+    width: 50%;
+    margin: auto;
+    border: 5px solid;
+    border-color: #EBEBEB;
+    margin-top: 20px;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 30px;
+    height: 30px;
+    padding-top: 5px;
+}
+#lform,#cform {
+    margin: auto;
+    width: 20%;
+    height: 40%;
+}
+
+#m_uname,#m_upass,#m_sbm_t,#c_u_id,#c_acc_num,#c_sbm_t {
+    font-family: 'Inconsolata', serif;
+    border: 5px solid;
+    border-color: #E05F6C;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+#m_sbm_t,#c_sbm_t {
+    background-color: #8E4497;
+    color: white;
+    border-radius: 0px 0px 0px 0px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px black;
+}
+#m_sbm_t:active,#c_sbm_t:active {
+    box-shadow: -5px -5px 10px black;
+}

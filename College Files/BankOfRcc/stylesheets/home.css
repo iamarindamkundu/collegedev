@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color : #8E4497;
+    font-family: 'Inconsolata', monospace;
+}
+#header {
+    background-color:#E05F6C;
+    width: 50%;
+    margin: auto;
+    border: 5px solid;
+    border-color: #EBEBEB;
+    margin-top: 20px;
+    border-radius: 10px 10px 10px 10px;
+    font-weight: bold;
+    letter-spacing: 30px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 5px;
+} 
+#ai,#th,#tm,#cp,#lo {
+    width: 10%;
+    height: 50px;
+    float: left;
+    margin-right: 1%;
+    border: 2px solid;
+    border-color: #EBEBEB;
+    background-color:#E05F6C;
+    text-align: center;
+    border-radius: 10px;
+}
+#ai {
+    margin-left: 22%;
+}
+
+#ai:hover,#th:hover,#tm:hover,#cp:hover,#lo:hover {
+    box-shadow: 0px 0px 10px black;
+    cursor: pointer;
+}
+#ai:active,#th:active,#tm:active,#cp:active,#lo:active {
+    box-shadow: -5px -5px 10px black;
+}
+#output {
+    border: 2px solid;
+    border-color: #EBEBEB;
+    height: 300px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    background-color:#E05F6C;
+    border-radius: 10px;
+}
+#aitable {
+    width: 100%;
+}
+#aitable td{
+    text-align: center;
+}
+#tmtable {
+    width: 100%;
+    margin-top: 50px;
+    
+}
+#tmtable th {
+    text-align: right;
+
+}
+#tmtable td {
+    text-align: left;
+}
+#_1,#_2,#_3{
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Inconsolata',monospace;
+    font-size: 20px;
+}
+#r1c1,#r2c1,#r3c1 {
+    float: left;
+}
+
+#ran,#am,#yp{
+    float: right;
+    border: 3px solid;
+    border-color: #8E4497;
+    font-family: 'Inconsolata',monospace;
+    font-size: 20px;
+    text-align: center;
+}
+#cpw,#np,#rnp{
+    float: right;
+    border: 3px solid;
+    border-color: #8E4497;
+    font-family: 'Inconsolata',monospace;
+    font-size: 20px;
+    text-align: center;
+}
+#_4 {
+    background-color: #E05F6C;
+    color: black;
+    margin: auto;
+    width: 20%;
+    border-radius: 0px 0px 0px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px black;
+    border: 5px solid;
+    border-color: #8E4497;
+    text-align: center;
+}
+#_4:active {
+    box-shadow: -5px -5px 10px black;
+}
+a {
+    text-decoration: none;
+}
